@@ -1,0 +1,93 @@
+/* Create a top navigation bar with a black background color  */
+.header {
+    width: 95vw;
+
+    padding-top: 40px;
+
+    .topnav {
+        // background-color: #333;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        padding: 0 10px 0 10px;
+        border: 1px solid black;
+        width: 91.5vw;
+        max-width: 1120px;
+
+        height: 70px;
+        position: relative;
+        .navitem {
+            color: #f2f2f2;
+            text-align: center;
+        }
+
+        .navbutton {
+            /* Style the links inside the navigation bar */
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            background-color: #ad5469;
+            color: white;
+
+            &:hover {
+                /* Change the color of links on hover */
+                background-color: #ddd;
+                color: black;
+                cursor: pointer;
+            }
+        }
+
+        .logo {
+            background-color: #e28383;
+            margin-right: 50px;
+            margin-top: 25px;
+            height: 30px;
+            min-width: 60px;
+            position: relative;
+            line-height: 30px;
+            color: black;
+            user-select: none;
+        }
+
+        .topnav-header {
+            position: absolute;
+            color: black;
+            white-space: nowrap;
+            font-size: 26px;
+            font-weight: normal;
+            text-transform: uppercase;
+            left: 125px;
+            bottom: 7px;
+            font-family: "Courier New", Courier, monospace;
+        }
+
+        .logoutBtn {
+            margin-right: 50px;
+            margin-top: 20px;
+            height: 40px;
+            min-width: 40px;
+            border: solid 1px #ad5469;
+            position: relative;
+            span {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: -26px;
+                color: black;
+                text-transform: uppercase;
+                pointer-events: none;
+            }
+
+            &:hover {
+                background-color: transparent;
+                border: solid 1px transparent;
+
+                span {
+                    color: #ad5469;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.loginMain {
+    padding: 20px;
+    margin: 20px;
+    background-color: #d9d9d9;
+    max-width: 50vw;
+
+    position: relative;
+    font-family: "Courier New", Courier, monospace;
+
+    &::before {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 3px;
+        top: 3px;
+        content: " ";
+        border: 1px solid black;
+        pointer-events: none;
+    }
+
+    input {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+            sans-serif;
+        outline: none;
+        padding-left: 3px;
+
+        &:focus {
+            border: 2px solid #caf1fa;
+        }
+    }
+
+    .btn {
+        display: inline-block;
+        margin: 10px 15px 0 0;
+        padding: 3px;
+
+        background-color: #caf1fa;
+        user-select: none;
+        cursor: pointer;
+
+        position: relative;
+        &::before {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 1px;
+            top: 1px;
+            content: " ";
+
+            border: 1px solid #caf1fa;
+            pointer-events: none;
+        }
+
+        &:hover {
+            background-color: #3f96a9;
+        }
+    }
+}

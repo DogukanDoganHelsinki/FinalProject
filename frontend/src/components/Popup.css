@@ -1,0 +1,32 @@
+/* The popup form - hidden by default */
+.popup {
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+    width: 80%;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    top: 10%;
+    height: 80%;
+}
+
+/* Add styles to the form container */
+.popup-container {
+    padding: 10px;
+    height: 100%;
+    background-color: #f9f2f2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popup-button-close {
+    font-size: 1.2em;
+    font-weight: 1000;
+    padding: 0.4em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.popup-button-close:hover {
+    cursor: pointer;
+}

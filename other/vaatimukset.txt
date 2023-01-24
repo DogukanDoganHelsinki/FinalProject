@@ -1,0 +1,9 @@
+Frontend 
+Backend
+
+molemmissa testist
+DB
+Azure
+
+Backend proxy to MyHelsinkiApi
+https://gitlab.com/javascriptcloud/myhelsinkiproxy

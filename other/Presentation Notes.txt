@@ -1,0 +1,36 @@
+
+SITE: https://loppuprojekti-blue.azurewebsites.net
+
+TASKS:
+
+frontend skeleton versio
+proxy to myHelsinki API
+middleware for checking authentication (valid jwt tokens)
+eslint
+
+login sivu
+/users + /login routes
+tests for backend
+header component
+
+deploying to azure + dockerfile
+db connection + DAO logic
+
+tests for search component at frontend
+search, tags, sort by + listing every restaurant
+
+favorites
+ratings
+
+restaurant service to communicate with backend
+favorites service to communicate with backend
+ratings service to communicate with backend
+users service to communicate with backend
+
+more sorting options for restaurantlist'
+v2 restaurants route to backend
+tests for favorites router
+fix adding/removing favorites
+
+Frontendissa automaattinen logout
+popup restaurant page
